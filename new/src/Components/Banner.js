@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import me1 from "../assets/img/me1.png";
+import me3 from "../assets/img/me3.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -52,13 +52,13 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
          
-          <Col xs={12} md={6} xl={7}>
+          <Col  md={6} xl={7}>
             <TrackVisibility>
             
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <div className="text">
-                <span className="tagline">Welcome to my Portfolio</span>
+                
                 <h1>{`HI! I'M GAVEEN BUDDHIKA`} <h2 className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></h2></h1>
                   <p>Passionate Software Engineering Undergraduate at the University of Kelaniya, Sri Lanka. Seeking to leverage technology to drive positive change and innovation. Currently gaining a strong foundation in programming, algorithms, and software development methodologies. Actively involved in extracurricular activities. Avid learner, tech enthusiast, and problem solver.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
@@ -68,11 +68,11 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
          
-          <Col xs={12} md={6} xl={5}>
+          <Col  md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={me1} alt="Header Img"/>
+                  <img src={me3} alt="Header Img"/>
                 </div>}
                 
             </TrackVisibility>
