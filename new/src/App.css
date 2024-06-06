@@ -399,7 +399,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 .project .nav.nav-pills {
   width: 20%;
@@ -465,7 +465,8 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: white;
+  opacity: 40%;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -494,12 +495,14 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #575757;
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: #575757;
 }
 .background-image-right {
   top: 20%;
