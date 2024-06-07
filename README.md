@@ -63,5 +63,5 @@ Click the "GET RESUME" button in the navigation bar to download my CV.
 
 If you have any questions or suggestions, feel free to contact me:
 
-- LinkedIn: [[your-linkedin-profile](https://www.linkedin.com/in/gaveen-buddhika-a41159257/)]
+- LinkedIn: [[GaveenBuddhika](https://www.linkedin.com/in/gaveen-buddhika-a41159257/)]
 
