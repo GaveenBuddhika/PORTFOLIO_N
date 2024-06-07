@@ -30,8 +30,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/GaveenBuddhika/PORTFOLIO_N.git
+    cd PORTFOLIO_N
     ```
 
 2. **Install dependencies**
