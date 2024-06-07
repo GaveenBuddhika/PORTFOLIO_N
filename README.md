@@ -63,8 +63,5 @@ Click the "GET RESUME" button in the navigation bar to download my CV.
 
 If you have any questions or suggestions, feel free to contact me:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/your-profile/)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
-
+- LinkedIn: [[your-linkedin-profile](https://www.linkedin.com/in/gaveen-buddhika-a41159257/)]
 
