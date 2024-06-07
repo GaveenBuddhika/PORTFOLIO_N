@@ -87,7 +87,7 @@ p.danger {
 
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 0px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -102,8 +102,8 @@ h2{
   color: #ffffff;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #252525;
+ padding: 0;
+  background-color: #030303;
   
 }
 nav.navbar a.navbar-brand {
@@ -336,7 +336,10 @@ transition: 0.3s ease-in-out;
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+.banner h4{
 
+  word-spacing: 7px;
+}
 
 /************ Skills Css ************/
 .skill {
@@ -345,7 +348,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   background-color: #000000;
 }
 .skill-bx {
-  background: #5a5a5a23;
+  background: #91919123;
   border-radius: 15px;
   text-align: center;
   padding: 60px 50px;
@@ -358,11 +361,13 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 	font-weight: 700;
 }
 .skill p {
-    color: #ffffff;
-    font-size: 18px;
+    color: #a5a5a5;
+    font-size: 25px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 35px 0;
+    font-weight:100;
+    padding-bottom:1px ;
 }
 .skill-slider {
   width: 80%;
@@ -379,6 +384,16 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+
+.section1{
+  padding-top: 30px;
+  
+}
+.section2{
+
+  padding-top: 90px;
 }
 
 /************ Projects Css ************/
