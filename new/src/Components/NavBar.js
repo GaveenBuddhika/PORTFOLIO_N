@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, NavLink } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/LOGO.png';
+import cv from '../assets/cv/CV.pdf'
 
 import { HashLink } from 'react-router-hash-link';
-
 
 export const NavBar = () => {
 
@@ -33,7 +33,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <h2></h2>
+          <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -46,10 +46,10 @@ export const NavBar = () => {
               <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>CONTACT</Nav.Link>
             </Nav>
             <span className="navbar-text">
-           
-                <button className="vvd"><span>GET RESUME</span></button>
-             
-            </span>
+    <a href={cv} download="Your_CV_Name.pdf">
+        <button className="vvd"><span>GET RESUME</span></button>
+    </a>
+      </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
