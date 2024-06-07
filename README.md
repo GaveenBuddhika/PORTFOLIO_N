@@ -67,4 +67,5 @@ If you have any questions or suggestions, feel free to contact me:
 - LinkedIn: [[GaveenBuddhika](https://www.linkedin.com/in/gaveen-buddhika-a41159257/)]
 
 ## Screenshots
+![Screenshot 2024-06-07 165503](https://github.com/GaveenBuddhika/PORTFOLIO_N/assets/118238999/0d4a9282-e6f1-4626-a763-92a5fd4212ca)
 
