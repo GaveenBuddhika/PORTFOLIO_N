@@ -292,10 +292,6 @@ padding-top: 35px;
 
 
 
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #ffffff;
-}
-
 .social-icon{
 
   padding-top: 10px;
@@ -507,17 +503,17 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 .proj-txtx h4 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 1.1em;
   color: #575757;
 }
 .proj-txtx span {
   font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 0.8px;
-  color: #575757;
+  color: #000000;
 }
 .background-image-right {
   top: 20%;
