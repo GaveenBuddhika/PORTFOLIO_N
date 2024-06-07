@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import me3 from "../assets/img/me3.png";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon3 from '../assets/img/nav-icon3.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -37,7 +37,7 @@ export const Banner = () => {
                   <div className="social-icon">
                 <a href="https://www.linkedin.com/in/gaveen-buddhika-a41159257/"><img src={navIcon1} alt="linkedin" /></a>
                 <a href="https://www.linkedin.com/in/gaveen-buddhika-a41159257/"><img src={navIcon2} alt="facebook" /></a>
-                <a href="#"><img src={navIcon3} alt="instagram" /></a>
+                <a href="https://github.com/GaveenBuddhika"><img src={navIcon3} alt="github" /></a>
               </div>
                   </div>
                 </div>}
