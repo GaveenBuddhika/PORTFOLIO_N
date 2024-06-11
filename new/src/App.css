@@ -503,16 +503,16 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 .proj-txtx h4 {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.8px;
   line-height: 1.1em;
   color: #575757;
 }
 .proj-txtx span {
   font-style: italic;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
-  letter-spacing: 0.8px;
+ 
   color: #000000;
 }
 .background-image-right {
