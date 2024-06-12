@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.png";
 import projImg4 from "../assets/img/project4.png";
 import projImg5 from "../assets/img/project5.png";
+import projImg6 from "../assets/img/project6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -40,7 +41,7 @@ export const Projects = () => {
     {
       title: "Simple User Mangement System",
       description: "A basic user management system developed using HTML, CSS, and PHP. Enables users to register, log in, and manage their profile information. Utilizes a MySQL database to store and manage user data securely. Provides a foundation for building more complex web applications with user authentication and authorization.Design & Development",
-      imgUrl: projImg4,
+      imgUrl: projImg6,
     },
   ];
 
