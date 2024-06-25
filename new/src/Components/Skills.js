@@ -1,6 +1,16 @@
-import meter1 from "../assets/img/meter1.png";
-import meter2 from "../assets/img/meter1.png";
-import meter3 from "../assets/img/meter1.png";
+import html from "../assets/img/html.png";
+import js from "../assets/img/js.png";
+import css from "../assets/img/css.png";
+import java from "../assets/img/java.png";
+import php from "../assets/img/php.png";
+import c from "../assets/img/c.png";
+import react from "../assets/img/react.png";
+import spring from "../assets/img/spring.png";
+import node from "../assets/img/node.png";
+import linux from "../assets/img/linux.png";
+import docker from "../assets/img/docker.png";
+import boostrap from "../assets/img/boostrap.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -39,50 +49,59 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                          
                             <div className="item">
-                                <img src={meter1} alt="I1" />
+                                <img src={js} alt="I1" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="I2" />
+                                <img src={html} alt="I2" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="I3" />
+                                <img src={css} alt="I3" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I4" />
+                                <img src={java} alt="I4" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I6" />
+                                <img src={php} alt="I6" />
                                 <h5>PHP</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I7" />
+                                <img src={c} alt="I7" />
                                 <h5>C</h5>
                             </div>
                         </Carousel>
                         </div>
 
                         <div className="section2">
-                        <p>FRAMEWORKS</p>
+                        <p>FRAMEWORKS & TECHNOLOGIES</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="I1" />
+                                <img src={react} alt="I1" />
                                 <h5>React Js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="I2" />
+                                <img src={node} alt="I2" />
                                 <h5>Node Js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="I3" />
+                                <img src={spring} alt="I3" />
                                 <h5>SpringBoot</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I4" />
+                                <img src={boostrap} alt="I4" />
                                 <h5>Boostrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={linux} alt="I5" />
+                                <h5>Linux</h5>
+                            </div>
+
+                            <div className="item">
+                                <img src={docker} alt="I6" />
+                                <h5>Docker</h5>
                             </div>
                         </Carousel>
 

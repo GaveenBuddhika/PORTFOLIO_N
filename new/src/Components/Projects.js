@@ -19,7 +19,7 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Personal Poortfolio",
+      title: "Personal Portfolio",
       description: "My personal portfolio website, crafted with React, React Bootstrap, and CSS. This site showcases my professional skills, past projects, and provides a contact form for inquiries. Additionally, users can easily download my CV with a single click.",
       imgUrl: projImg2,
     },
@@ -34,7 +34,7 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: "Personal Poortfolio",
+      title: "Personal Portfolio",
       description: "Designed with HTML and CSS. This site highlights my skills and projects, offering a glimpse into my professional journey. Explore the About section to learn more about me, review my skill set, browse through my projects, and get in touch through the contact form.",
       imgUrl: projImg5,
     },
