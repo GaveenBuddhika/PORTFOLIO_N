@@ -24,7 +24,8 @@ This is my personal portfolio website built with React, React Bootstrap, and CSS
 - **React**: JavaScript library for building user interfaces.
 - **React Bootstrap**: Bootstrap components built with React.
 - **CSS**: Styling the website.
-
+- **Docker**: Containerization platform to build and run the application in isolated environments.
+  
 ## Setup
 
 To run this project locally, follow these steps:
@@ -47,6 +48,7 @@ To run this project locally, follow these steps:
 
 Your portfolio website should now be running on [http://localhost:3000](http://localhost:3000).
 
+
 Also you can run project using docker
 
 1. **Clone the repository**
@@ -54,7 +56,7 @@ Also you can run project using docker
     git clone https://github.com/GaveenBuddhika/PORTFOLIO_N.git
     cd PORTFOLIO_N
     ```
-    and go to project file dirctory,
+    and go to project file directory,
    
 3. **Build the Docker image**
      ```bash
