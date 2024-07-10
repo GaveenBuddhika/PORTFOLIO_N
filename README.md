@@ -47,6 +47,28 @@ To run this project locally, follow these steps:
 
 Your portfolio website should now be running on [http://localhost:3000](http://localhost:3000).
 
+Also you can run project using docker
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/GaveenBuddhika/PORTFOLIO_N.git
+    cd PORTFOLIO_N
+    ```
+    and go to project file dirctory,
+   
+3. **Build the Docker image**
+     ```bash
+   docker build -t my-react-portfolio .
+    ```
+   
+4. **Run the Docker container**
+     ```bash
+   docker run -d -p 80:80 my-react-portfolio
+    ```
+
+Your portfolio website should now be running on http://localhost.
+
+
 ## Usage
 
 Navigate through the different sections of the website:
@@ -55,6 +77,7 @@ Navigate through the different sections of the website:
 - **Skills**: Explore my skills in various technologies.
 - **Projects**: Check out my previous work.
 - **Contact**: Send me a message through the contact form.
+- Docker: Containerization platform to build and run the application in isolated environments.
 
 ### Download CV
 
