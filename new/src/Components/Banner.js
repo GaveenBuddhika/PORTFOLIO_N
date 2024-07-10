@@ -31,7 +31,7 @@ export const Banner = () => {
                 <div className="text">
                 
                 <h1>{`HI! I'M GAVEEN BUDDHIKA`} <h4 className="txt-rotate" >3RD YEAR UNDERGRADUATE  |  DEVOPS ENTHUSIAST </h4></h1>
-                  <p>Passionate Software Engineering Undergraduate at the University of Kelaniya, Sri Lanka. Seeking to leverage technology to drive positive change and innovation. Currently gaining a strong foundation in programming, algorithms, and software development methodologies. Actively involved in extracurricular activities. Avid learner, tech enthusiast, and problem solver.</p>
+                  <p>As a dedicated software engineering undergraduate with a strong focus on web development and DevOps, I bring a robust set of skills including teamwork, communication, organizational and interpersonal abilities. Being passionate about expanding my knowledge and building a solid career framework, I am eager to contribute meaningfully to the workplace and become a valuable asset to the team.</p>
                   <button onClick={() => navigateToContactSection()}>Let's Connect <ArrowRightCircle size={25} /></button>
 
                   <div className="social-icon">
